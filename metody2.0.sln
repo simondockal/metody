@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02", "P02\P02.csproj", "{7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03", "P03\P03.csproj", "{C383DE0F-D325-4D53-B977-CA20A005B28A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poleUtil", "metodypole\poleUtil.csproj", "{27A41B8A-2611-424F-8A8E-BA319C7D1E33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poleUtil", "metodypole\poleUtil.csproj", "{27A41B8A-2611-424F-8A8E-BA319C7D1E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vypocet_kvadr_ctverec", "vypocet_kvadr_ctverec\vypocet_kvadr_ctverec.csproj", "{7800F478-FAEE-4F7B-A891-08FF849E3BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{27A41B8A-2611-424F-8A8E-BA319C7D1E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27A41B8A-2611-424F-8A8E-BA319C7D1E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27A41B8A-2611-424F-8A8E-BA319C7D1E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7800F478-FAEE-4F7B-A891-08FF849E3BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7800F478-FAEE-4F7B-A891-08FF849E3BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7800F478-FAEE-4F7B-A891-08FF849E3BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7800F478-FAEE-4F7B-A891-08FF849E3BAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

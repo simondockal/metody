@@ -12,35 +12,56 @@ namespace P03
 {
     public partial class Form1 : Form
     {
+        private object vypocet_kvadr_ctverec;
+
         public Form1()
         {
             InitializeComponent();
         }
 
-
-
         private void button1_Click(object sender, EventArgs e)
         {
             if(textBox1.Text!=""&&textBox2.Text!="")
             {
+               if(textBox3.Text=="")
+               {
                 int a = Convert.ToInt32(textBox1.Text);
                 int b = Convert.ToInt32(textBox2.Text);
-                int obsah;
-                double uhlopricka;
+                int obsah = vypocet_kvadr_ctverec.Dvj(a, b, out double uhlopricka);
+
                 if(a==b)
                 {
-                    obsah = a * a;
-                    uhlopricka = Math.Sqrt(a * a + a * a);
                     label3.Text = "Uhlopricka ctverce je " + uhlopricka.ToString("F2");
                     label4.Text = "Obsah ctverce je " + obsah;
+
                 }
                 else
                 {
-                    obsah = a*b;
-                    uhlopricka = Math.Sqrt(a * a + b * b);
                     label3.Text = "Uhlopricka obdelniku je " + uhlopricka.ToString("F2");
                     label4.Text = "Obsah obdelniku je " + obsah;
                 }
+
+               }
+               else
+               {
+                    int a = Convert.ToInt32(textBox1.Text);
+                    int b = Convert.ToInt32(textBox2.Text);
+                    int hloubka = Convert.ToInt32(textBox3.Text);
+
+                    double objem = vypocet_kvadr_ctverec.Obj(a, b, hloubka, out double telesnauhlopricka);
+                    label4.Text = "Telesna uhlovpricka je " + telesnauhlopricka.ToString("F2");
+
+                    if (a==b&&a==hloubka)
+                    {
+                        label3.Text = "Objem krychle je " + objem.ToString("F2");
+                    }
+                    else
+                    {
+                        label3.Text = "Objem kvadru je " + objem.ToString("F2");
+                    }
+               }
+
+
             }
         }
     }
