@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P03priklad;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace P03
 {
     public partial class Form1 : Form
     {
-        private object vypocet_kvadr_ctverec;
 
         public Form1()
         {
@@ -27,7 +28,7 @@ namespace P03
                {
                 int a = Convert.ToInt32(textBox1.Text);
                 int b = Convert.ToInt32(textBox2.Text);
-                int obsah = vypocet_kvadr_ctverec.Dvj(a, b, out double uhlopricka);
+                    int obsah = Telesa.Obsah(a, b, out double uhlopricka);
 
                 if(a==b)
                 {
@@ -48,7 +49,7 @@ namespace P03
                     int b = Convert.ToInt32(textBox2.Text);
                     int hloubka = Convert.ToInt32(textBox3.Text);
 
-                    double objem = vypocet_kvadr_ctverec.Obj(a, b, hloubka, out double telesnauhlopricka);
+                    double objem = Telesa.Objem(a, b, hloubka, out double telesnauhlopricka);
                     label4.Text = "Telesna uhlovpricka je " + telesnauhlopricka.ToString("F2");
 
                     if (a==b&&a==hloubka)

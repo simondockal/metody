@@ -100,5 +100,26 @@ namespace poleUtil
             pole[pozice] = pole[pole.Length - 1];
             pole[pole.Length - 1] = max;
         }
+
+        static public int[] nulovani(int[] pole,int x)
+        {
+            int umocneno = 0;
+            for(int i=0;i<pole.Length;i++)
+            {
+                if(pole[i]<0)
+                {
+                    pole[i] = 0;
+                }
+                else
+                {
+                    for(int y=0;y<x;y++)
+                    {
+                        umocneno = pole[i] * pole[i];
+                    }
+                    pole[i] = umocneno;
+                }
+            }
+            return pole;
+        }
     }
 }

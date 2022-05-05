@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C383DE0F-D325-4D53-B977-CA20A005B28A}</ProjectGuid>
+    <ProjectGuid>{EC9EA9E8-89D6-4A18-B328-D4D981FA0459}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>P03</RootNamespace>
-    <AssemblyName>P03</AssemblyName>
+    <RootNamespace>P04</RootNamespace>
+    <AssemblyName>P04</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,13 +80,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\P03priklad\P03priklad.csproj">
-      <Project>{394AEF5D-C0C5-40CA-BFAF-1AB6C1BCF083}</Project>
-      <Name>P03priklad</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\vypocet_kvadr_ctverec\vypocet_kvadr_ctverec.csproj">
-      <Project>{7800F478-FAEE-4F7B-A891-08FF849E3BAE}</Project>
-      <Name>vypocet_kvadr_ctverec</Name>
+    <ProjectReference Include="..\metodypole\poleUtil.csproj">
+      <Project>{27A41B8A-2611-424F-8A8E-BA319C7D1E33}</Project>
+      <Name>poleUtil</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
