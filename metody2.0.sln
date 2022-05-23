@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poleUtil", "metodypole\pole
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vypocet_kvadr_ctverec", "vypocet_kvadr_ctverec\vypocet_kvadr_ctverec.csproj", "{7800F478-FAEE-4F7B-A891-08FF849E3BAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03priklad", "P03priklad\P03priklad.csproj", "{394AEF5D-C0C5-40CA-BFAF-1AB6C1BCF083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03priklad", "P03priklad\P03priklad.csproj", "{394AEF5D-C0C5-40CA-BFAF-1AB6C1BCF083}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04", "P04\P04.csproj", "{EC9EA9E8-89D6-4A18-B328-D4D981FA0459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05", "P05\P05.csproj", "{B5E3F2F2-17BA-4C46-B4BF-BE63FB351385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatematikaUtil", "MatematikaUtil\MatematikaUtil.csproj", "{07C54095-E4CC-42DB-BE6F-52A10D374B03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{EC9EA9E8-89D6-4A18-B328-D4D981FA0459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC9EA9E8-89D6-4A18-B328-D4D981FA0459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC9EA9E8-89D6-4A18-B328-D4D981FA0459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E3F2F2-17BA-4C46-B4BF-BE63FB351385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E3F2F2-17BA-4C46-B4BF-BE63FB351385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E3F2F2-17BA-4C46-B4BF-BE63FB351385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E3F2F2-17BA-4C46-B4BF-BE63FB351385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C54095-E4CC-42DB-BE6F-52A10D374B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C54095-E4CC-42DB-BE6F-52A10D374B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C54095-E4CC-42DB-BE6F-52A10D374B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C54095-E4CC-42DB-BE6F-52A10D374B03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
